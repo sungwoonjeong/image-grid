@@ -54,3 +54,22 @@ img:nth-child(5) {
     width: 50%;
   }
 }
+
+@media only screen and (min-width: 38em) {
+
+  img:nth-child(2) {
+    width: 33.3333%;
+  }
+
+  img:nth-child(3) {
+    width: 33.3333%;
+  }
+
+  img:nth-child(4) {
+    width: 33.3333%;
+  }
+
+  img:nth-child(5) {
+    display: none;
+  }
+}
