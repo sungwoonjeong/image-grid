@@ -73,3 +73,29 @@ img:nth-child(5) {
     display: none;
   }
 }
+
+@media only screen and (min-width: 60em) {
+
+  img:nth-child(1) {
+    display: inline;
+    width: 66.6666%;
+  }
+
+  img:nth-child(2) {
+    width: 33.3333%;
+  }
+
+  img:nth-child(3) {
+    width: 33.3333%;
+  }
+
+  img:nth-child(4) {
+    width: 33.3333%;
+  }
+
+  img:nth-child(5) {
+    display: inline-block;
+    width: 33.3333%;
+  }
+
+}
