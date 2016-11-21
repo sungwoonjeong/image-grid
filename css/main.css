@@ -25,6 +25,9 @@ img {
   float: left;
 }
 
-@media only screen and (min-width: 60em) {
-    img
-  }
+img:nth-child(2) {
+  display: none;
+}
+img:nth-child(5) {
+  display: none;
+}
